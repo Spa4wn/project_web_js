@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Narco BlackMarket - Inicio</title>
+    <link rel="icon" href="image\favoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style\styles.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="image\favoicon.ico" alt="Logo" class="logo-img">
+            Narco BlackMarket
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index2.html" >Inicio</a></li>
+                <li><a href="index.html" >Conta</a></li>
+                <li><a href="index4.html" >Catálogo</a></li>
+                <li><a href="index3.html" >Carrinho</a></li>
+                <li><button id="logoutButton">Logout</button></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="message" class="message"></div>
+        <h1>Bem-vindo(a) à Narco Market - Sua loja BlackMarket online</h1>
+        <h2>Produtos que vão além da lei, para você!</h2>
+        
+        <section id="products">
+            <h3>Produtos populares</h3>
+            <ul>
+                <li>
+                    <h4>Cannabis CBD Rápida</h4>
+                    <img src="image\budding-Bu6BSErSL_M-unsplash.jpg" alt="Cannabis CBD Rápida" style="width: 100px; height: 100px;">
+                    <p>Preço: R$ 70,57</p>
+                    <p>Descrição: Óleo oleogeno extra-puro para fortalecer sua saúde mente e fisica!</p>
+                    <button class="addToCartButton">Adicionar ao carrinho</button>
+                    <button onclick="calcularPromocao(70.57, 'Cannabis CBD Rápida')">Promocional</button>
+                    <p id="promocao-Cannabis-CBD-Rapida" class="promocao"></p>
+                </li>
+                <li>
+                    <h4>Marijuana de futebol redonda</h4>
+                    <img src="image\ndispensable-zwc6BD4_RDE-unsplash.jpg" alt="Marijuana de futebol redonda" style="width: 100px; height: 100px;">
+                    <p>Preço: R$ 59,99</p>
+                    <p>Descrição: Sementes ricas e cheias de nutrientes, ideal para cultivar seus próprios produtos!</p>
+                    <button class="addToCartButton">Adicionar ao carrinho</button>
+                    <button onclick="calcularPromocao(59.99, 'Marijuana de futebol redonda')">Promocional</button>
+                    <p id="promocao-Marijuana-de-futebol-redonda" class="promocao"></p>
+                </li>
+                <li>
+                    <h4>Cannabis CBN - Canna Business Network</h4> 
+                    <img src="image\budding-oJJkFGn-AP4-unsplash.jpg" alt="Cannabis CBN - Canna Business Network" style="width: 100px; height: 100px;">
+                    <p>Preço: R$ 19,50</p> 
+                    <p>Descrição:</p> 
+                    <button class="addToCartButton">Adicionar ao carrinho</button>
+                   <button onclick="calcularPromocao(19.50, 'Cannabis CBN - Canna Business Network')">Promocional</button>
+                   <p id="promocao-Cannabis-CBN-Canna-Business-Network" class="promocao"></p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="testimonial">
+            <h3>Testemunhas</h3>
+            <ul>
+                <li>
+                    <q>"Farmacia Alucinógenos me ajudou muito com minha problema de insônia. Agora tenho sono tranquilizado!" - João Paulo</q>
+                </li>
+                <li>
+                    <q>"Eu gosto da experiência com cannabis nasceu após comprar em Farmacia Alucinógenos. É muito prazer!" - Ana Paula Bomfim</q>
+                </li>
+                <li>
+                    <q>"meu produto e muinto melhor vemdo pela metade do preço" - Moyses dono da boca </q>
+                </li>
+                <li>
+                    <q>"eu troco meu gato por mais" - dona lucia</q>
+                </li>
+                <li>
+                    <q>"hello, estava perdido quando era coroinha  após sete vezes ser violentado pela corte papal, por semana, após chegar o setembro amrelo que me matar, mas a farmazia... Ops já é o efeito da canabiz... Qis me matar mas a conheci, amu A Cannabis, substitui o cigarro do meu painho. " - Bartolomeu </q>
+                </li>
+                <li>
+                    <q>"acho que to vendo tanbem... olha o neimar aqui ... o não é o efeito da canabizsegdheujj... olha o passarinho..." - Jonatas traficante da rocinha </q>
+                </li>
+                <li>
+                    <q>"Ola, tudo bein... Então, brigava muito com a muie e não sabia mas o que fazer, ganhei essa ze prea em aposta, fui pra igreja buscar orientação, e o pastor disse" De fim em tudo que le cauda mal", cheguei em casa  não só bati na muie, mas também na rapariga veia da sogra, nas filha... Pensei que tudo estava sossegado agora, mas veio uma tal de Maria da penha, tinha que ser Maria tem que panha, ai mim prenderam fui na cadeia me bateram mais que bati na minha sogra e na muie, achei que tudo tava acabado chegou setembro amarelo e colocar a corda nas Gaia e pular do teiado, mas conheci a farmácia Alucionegenos. Resumindo tudo mudou; O bom é que chego em casa a noite e no outro dia  só mim lembro que cheguei medicado, e quando acordo todo mundo está de ressaca, tudo de olho roxo de tanta ressaca, vou leva-os para farmácia, num instante baixa o fogo nos fiofo deles-  Pedro Prazeres  </q>
+                </li>
+            </ul>
+        </section>
+
+        <section id="aboutUs">
+            <h3>A nossa história</h3>
+            <p>Narco Market é uma empresa de distribuição ilegal de produtos de ilicitos. Nossas operações estão por todo o Brasil.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#" target="_blank">Seguir em Facebook</a>
+            <a href="#" target="_blank">Seguir em Twitter</a>
+            <a href="#" target="_blank">Seguir em Instagram</a>  
+        </div>
+
+        <div class="contact">
+            <p>Contato: farmaciavalucinógenos@hotmail.com.br</p>  
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024, Narco BlackMarket. Aqui a lei não existe.</p>  
+        </div>
+    
+    </footer>
+    <script src="script\script.js"></script>
+</body>
+</html>

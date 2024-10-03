@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Alucinógenos - Login</title>
+    <link rel="stylesheet" href="image\favoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style\styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">Farmacia Alucinógenos</div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Início</a></li>
+                <li><a href="index.html">Conta</a></li>
+                <li><a href="index3.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Login/Cadastro</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+            <p id="loginMessage"></p> 
+        </form>
+
+        <h4> Se você não tem uma conta, tente cadastrar uma!</h4>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Nome de Usuário" required>
+            <input type="password" id="newPassword" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+            <p id="registerMessage"></p>
+        </form>
+
+        <div class="info">
+            <span>Empresa: Farmacia Alucinógenos</span>
+            <span>Data: 19/09/2024</span>
+            <span>Telefone: 88888-8888</span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#">Facebook</a>  
+            <a href="#">Twitter</a>  
+            <a href="#">Instagram</a>
+        </div>
+        <div class="contact">
+            <p>Contato: Farmaciapag@gmail.com</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024, Farmacia Alucinógenos - Todos as vidas são preservadas.</p>
+        </div>
+    </footer>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
